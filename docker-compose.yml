@@ -7,9 +7,9 @@ services:
     ports:
       - 3000:3000
     environment:
-      - OPENAI_API_KEY=$OPENAI_API_KEY
-      - CODE=$CODE
-      - BASE_URL=$BASE_URL
+      - OPENAI_API_KEY=sk-AFFlAJDrja7xzYuJ39456896E2C04eEaBfB94c552e597e8f
+      - CODE=123
+      - BASE_URL=https://api.mctools.online/v1
       - OPENAI_ORG_ID=$OPENAI_ORG_ID
       - HIDE_USER_API_KEY=$HIDE_USER_API_KEY
       - DISABLE_GPT4=$DISABLE_GPT4
