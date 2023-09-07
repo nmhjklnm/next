@@ -110,6 +110,12 @@ export function SideBar(props: { className?: string }) {
 
   useHotKey();
 
+
+
+
+
+
+  
   return (
     <div
       className={`${styles.sidebar} ${props.className} ${
