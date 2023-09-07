@@ -121,7 +121,7 @@ export function SideBar(props: { className?: string }) {
           Chiru
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          Elegance in survival's dance
+            Elegance in survival dance
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
