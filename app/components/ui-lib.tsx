@@ -119,7 +119,7 @@ export function Modal(props: ModalProps) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  const [isMax, setMax] = useState(!!props.defaultMax);
+  const [isMax, setMax] = useState(false);
 
   return (
     <div
